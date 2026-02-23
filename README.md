@@ -6,6 +6,7 @@ This is a simple number guessing game implemented in PHP.
 ## Game Description
 
 The Number Guessing Game is a command-line game where the computer randomly selects a number within a certain range, and your goal is to guess the number. After each guess, the game will tell you if your guess is too high, too low, or correct. The game continues until you guess the correct number. It's a fun way to practice logic and improve your guessing strategy!
+If you are stuck, the game provides a hint system that offers clues to help you guess the number.
 
 ## How to Run
 
@@ -28,7 +29,6 @@ The Number Guessing Game is a command-line game where the computer randomly sele
 ## Future Features
 
 - Add a timer to see how long it takes the user to guess the number.
-- Implement a hint system that provides clues to the user if they are stuck.
 - Keep track of the user's high score (i.e., the fewest number of attempts it took to guess the number under a specific difficulty level).
 
 For more details and ideas for extending this project, see the [Number Guessing Game Roadmap](https://roadmap.sh/projects/number-guessing-game).
