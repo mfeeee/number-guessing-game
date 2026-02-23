@@ -24,4 +24,11 @@ The Number Guessing Game is a command-line game where the computer randomly sele
 
 ## Project Roadmap
 
+
+## Future Features
+
+- Add a timer to see how long it takes the user to guess the number.
+- Implement a hint system that provides clues to the user if they are stuck.
+- Keep track of the user's high score (i.e., the fewest number of attempts it took to guess the number under a specific difficulty level).
+
 For more details and ideas for extending this project, see the [Number Guessing Game Roadmap](https://roadmap.sh/projects/number-guessing-game).
