@@ -65,6 +65,14 @@ function validateGuess(?string $guess = null) {
     return true;
 }
 
+function giveHint($answer) {
+    if ($answer % 2 == 0) {
+        echo "Hint: The number is even.\n" . PHP_EOL;
+    } else {
+        echo "Hint: The number is odd.\n" . PHP_EOL;
+    }
+}
+
 function runGame(int $attempts) {
     $answer = defineSecretNumber();
     $foundAnswer = false;
@@ -86,6 +94,10 @@ function runGame(int $attempts) {
             echo "Incorrect! The number is less than $guess.\n" . PHP_EOL;
         } else {
             echo "Incorrect! The number is greater than $guess.\n" . PHP_EOL;
+        }
+
+        if ($i == ceil($attempts / 2)) {
+            giveHint($answer);
         }
     }
 
